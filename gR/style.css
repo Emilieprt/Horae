@@ -131,8 +131,11 @@ img{
     width: 200px;
     height: 240px;
     top: 200px;
-    left: 40%;
-    margin-left: 250px;
+    left: 44%;
+    margin-left: 280px;
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;
+    color: #2E120C
 }
 
 .container{
