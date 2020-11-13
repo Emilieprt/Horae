@@ -50,6 +50,8 @@ img{
   margin-left: -620px;
 }
 
+/*Carte profil avec différent emplacement sur la page*/
+
  .card-naomi{
   background-color:#d8c9c9; 
   padding:10px;
@@ -115,12 +117,23 @@ img{
  }
 
 
-
+ /*Placer une image a gauche d'un texte*/
 
  .flotte{
  	float:left;
  }
 
+ /*Placer un texte à droite*/
+
+.right{
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    height: 240px;
+    top: 200px;
+    left: 40%;
+    margin-left: 250px;
+}
 
 .container{
 	width:700px;
