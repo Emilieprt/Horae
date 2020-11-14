@@ -7,8 +7,11 @@
 
 
 body {
-	font-family: 'Josefin Sans', cursive;
-	font-size: 18px
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	background:#FFFFFF;
+	color:#2E120C;
+	font-weight:bold;
  
 }
 
