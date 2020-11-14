@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Homepage</title>
+  <meta name="description" content="This is our homepage">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h3>Homepage</h3>
+
+<div>
+	<img id="heels" src="images/product.png">
+	<img id="boots" src="images/product.png">
+	<img id="sneakers" src="images/product.png">
+</div>
+
+<div>
+	<img id="sandals" src="images/product.png">
+	<img id="mocassins" src="images/product.png">
+</div>
+
+<br>
+
+<div id="button-heels">
+	<h4 class="button">High heels</h4>
+</div>
+
+<div id="button-boots">
+	<h4 class="button">Boots</h4>
+</div>
+
+<div id="button-sneakers">
+	<h4 class="button">Sneakers</h4>
+</div>
+
+<div id="button-sandals">
+	<h4 class="button">Sandals</h4>
+</div>
+
+<div id="button-mocassins">
+	<h4 class="button">Mocassins</h4>
+</div>
+
+
+</body>
+
+
+</html>>
