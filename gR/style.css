@@ -5,6 +5,57 @@
 @import url("css/container.css");
 @import url("css/button.css");
 
+/* Header */
+
+
+.header-style {
+  padding: 15px;
+  margin: 0;
+  background-color: #D1BFB5;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  list-style: none;
+}
+
+.header-style a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#seperate-items-header{
+  margin-left: auto;
+}
+
+li{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Footer Style */
+
+.footer-style {
+  background-color: #C4C4C4;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  list-style: none;
+  clear: both;
+  bottom: 0;
+  margin-top: 75px;
+}
+
+.footer-style a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#seperate-items-footer{
+  margin-left: auto;
+}
+
+/* General Styles */
 
 body {
 background: #FFFFFF;
@@ -12,6 +63,8 @@ color: #2E120C;
 font-family: 'Josefin Sans', sans-serif;
 font-size: 17px;
 font-weight: bold;
+margin: 0;
+border: 0;
 }
 
 h1 {
@@ -36,6 +89,7 @@ h4{
     margin-right: 80px;
     text-align: justify;
 }
+
 a {
 	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
@@ -60,6 +114,67 @@ h6 {
 img{
   border-radius:10%;
     width:170px; 
+}
+
+ /* Shoe Page */
+.grid-container{
+  display: grid;
+  grid-template-columns: 170px 170px 170px 170px;
+  grid-template-rows: 170px 170px;
+  grid-gap: 50px 50px;
+  justify-content: center;
+  margin-top: 100px;
+  }
+
+.grid-item {
+  background: #C4C4C4;
+  justify-content: start;
+}
+
+#description{
+  font-size: 24px;
+}
+
+/* Product Page */
+
+.followpath{
+  display: flex;
+  list-style: none;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 0 auto;
+}
+
+.shoe-category{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  list-style: none;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 0 auto;
+}
+
+
+.shoe-category a:hover {
+  color: black bold;
+  text-decoration: none;
+}
+
+.container-boots{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#img-float{
+  float: left;
+  margin: 30px;
+  width: 370px;
+  height: 370px;
+}
+
+#add-space{
+  margin-top: 50px;
 }
 
 /* image fleche */
