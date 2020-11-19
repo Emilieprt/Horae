@@ -1,0 +1,17 @@
+.button-purple{
+	background-color: #2E120C;
+	color: white;
+	padding:7px 250px;
+	font-size: bold;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.button-white{
+	background-color: white;
+	color: #2E120C;
+	padding:7px 237px;
+	font-size: bold;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
