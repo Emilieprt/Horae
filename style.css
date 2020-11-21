@@ -21,6 +21,18 @@
   text-decoration: none;
 }
 
+#head{
+  margin-left: 100px;
+}
+
+#logohead{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -2px;
+  margin-left: 10px;
+}
+
 #seperate-items-header{
   margin-left: auto;
 }
