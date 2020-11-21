@@ -34,14 +34,16 @@ li{
 
 .footer-style {
   background-color: #C4C4C4;
-  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: stretch;
   list-style: none;
   clear: both;
+  padding: 15px;
+  margin: 0;
+  width: 100%;
+  position: fixed;
   bottom: 0;
-  margin-top: 75px;
 }
 
 .footer-style a:hover {
@@ -174,6 +176,85 @@ img{
 #add-space{
   margin-top: 50px;
 }
+
+.color-picker{
+  display: inline-flex;
+  list-style: none;
+}
+
+.finalize{
+  display: inline-flex;
+  list-style: none;
+  align-items: stretch;
+  text-align: center;
+}
+
+.finalize i{
+  font-style: normal;
+}
+
+
+#number{
+ padding: 10px;
+ width: 18px;
+  height: 18px;
+}
+
+.quantity-buttons{
+  background-color: #EAD1C3;
+  padding: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+#blue-rectangle{
+  background: #0F3493;
+}
+
+#red-rectangle{
+  background: #9E1717;
+}
+
+#grey-rectangle{
+  background: #C4C4C4;
+}
+
+#black-rectangle{
+  background: #060000;
+}
+
+#beige-rectangle{
+  background: #EAD1C3;
+}
+
+.size-picker i {
+  padding: 8px 10px;
+  margin: 0px;
+  display: inline-flex;
+  list-style: none;
+  background-color: #D1BFB5;
+  font-style: normal;
+}
+
+.color-picker i{
+  padding: 3px 3px;
+  margin: 0 5px;
+  width: 18px;
+  height: 18px;
+}
+
+#basket-button{
+  margin: 0 20px;
+  background-color: #EAD1C3;
+  padding: 10px 40px;
+  height: 18px;
+  margin-left: 40px;
+}
+
+.button-size{
+  font-size: 30px;
+}
+
 
 /* image fleche */
 
