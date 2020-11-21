@@ -499,6 +499,13 @@ transform: rotate(30deg);
   position: absolute;
 }
 
+#spaceindex{
+  top: 1000px;
+  position: absolute;
+  width: 200px;
+  height: 30px;
+}
+
 
 /* Products on homepage */
 #heels{
